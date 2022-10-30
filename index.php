@@ -1,8 +1,7 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 header('Content-type: application/json');
-    $response = array();
-    $response[0] = array(
+    $response = array(
         'slackUsername' => 'Tj',
         'backend' => true,
         'age' => 25, 
